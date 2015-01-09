@@ -2,12 +2,18 @@
 Eventually this readme will have information about all of my configs and plugins.
 
 ## Deploying
-rm -rf .vim
-rm .vimrc
-git clone git@github.com:maciakl/.vim.git
-ln -s .vim/.vimrc .vimrc
-cd .vim
-git submodule init
-git submodule update
+$ rm -rf .vim
 
-vim +PluginInstall +qall
+$ rm .vimrc
+
+$ git clone 
+
+$ ln -s .vim/.vimrc .vimrc
+
+$ cd .vim
+
+$ git submodule init
+
+$ git submodule update
+
+$ vim +PluginInstall +qall
